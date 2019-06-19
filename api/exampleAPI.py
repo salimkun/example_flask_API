@@ -17,7 +17,7 @@ def create_connection():
     Fungsi untuk terhubung dengan database SQLite.
     """
     try:
-        return sqlite3.connect('restful_api_with_flask.db')
+        return sqlite3.connect('example_flask_api.db')
     except:
         print('Error! cannot create the database connection.')
         return None
