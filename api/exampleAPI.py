@@ -1,11 +1,4 @@
 #!/usr/bin/python3
-"""
-Implementasi sederhana RESTful API menggunakan Flask.
-Flask harus terlebih dahulu diinstal di komputer.
-SQLite digunakan untuk contoh sederhana penyimpanan ke database.
-Dibuat oleh Pipin Fitriadi (email: pipinfitriadi@gmail.com),
-pada tanggal 28 Februari 2019.
-"""
 import json
 import sqlite3
 from sqlite3 import Error
